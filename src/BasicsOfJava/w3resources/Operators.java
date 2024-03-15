@@ -17,6 +17,7 @@ public class Operators {
         System.out.println(num1*num2);
         System.out.println(num1/num2);
         System.out.println(num1%num2);
+        System.out.println((25.5 * 3.5 - 3.5 * 3.5)/(40.5-4.5));
 
 
 
