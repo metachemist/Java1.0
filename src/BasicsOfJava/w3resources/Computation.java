@@ -1,6 +1,6 @@
 package BasicsOfJava.w3resources;
 
-/*import java.util.Scanner;
+import java.util.Scanner;
 
 import static java.lang.Math.*;
 
@@ -10,22 +10,10 @@ public class Computation {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the length of side: ");
         side = input.nextLong();
-        double area = (6*pow(side,2))/(4*tan(toDegrees(PI/6)));
+        double area = (6*pow(side,2))/(4*tan(PI/6));
         System.out.println(STR."The area of hexagon is: \{area}");
     }
-}*/
-
-import java.util.Scanner;
-import static java.lang.Math.*;
-
-public class Computation {
-    public static void main(String[] args) {
-        long side;
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter the length of side: ");
-        side = input.nextLong();
-        double area = (6 * pow(side, 2)) / (4 * tan(PI / 6));
-        System.out.println("The area of hexagon is: " + area);
-    }
 }
+
+
 
