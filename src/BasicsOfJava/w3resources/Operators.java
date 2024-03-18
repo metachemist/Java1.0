@@ -12,12 +12,16 @@ public class Operators {
 //  for second number
         System.out.print("Input second number: ");
         int num2 = input.nextInt();
+
+        long avg = (num1+num2)/2;
+
         System.out.println(num1+num2);
         System.out.println(num1-num2);
         System.out.println(num1*num2);
         System.out.println(num1/num2);
         System.out.println(num1%num2);
         System.out.println((25.5 * 3.5 - 3.5 * 3.5)/(40.5-4.5));
+        System.out.println(STR."The average of \{num1} and \{num2} is \{avg}");
 
 
 
