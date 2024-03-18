@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BinaryNumber {
     public static void main(String[] args){
-        long binary1, binary2;
+       long binary1, binary2;
         int remainder = 0;
         int[] sum = new int[20];
         Scanner input = new Scanner(System.in);
@@ -26,6 +26,8 @@ public class BinaryNumber {
         System.out.print("Sum of two Binary Number:" );
         while(i >= 0){
             System.out.print(sum[i--]);
+
+
         }
     }
 }
