@@ -1,8 +1,8 @@
 package BasicsOfJava;
-
+import java.util.*;
 public class TestClass {
     public static void main(String[] args){
-        long Bigone = 299999999L, Largeone = 39999999999L;
+        /*long Bigone = 299999999L, Largeone = 39999999999L;
         int miles = 90,
                 furlong = 98,
                 yards = 45,
@@ -20,7 +20,38 @@ public class TestClass {
         System.out.println("Testing Escape \rSequence\r");
         //System.out.println("Testing Escape Sequence\a");
         System.out.println("Testing Escape Sequence\"");
-        System.out.println("Testing Escape Sequence\\");
+        System.out.println("Testing Escape Sequence\\"); */
 
+
+        char symbol;
+        symbol = (char) (128.0*Math.random());
+        if (symbol >= 'A'){
+            if (symbol <= 'Z'){
+                System.out.println("You have capital letter");
+            }else {
+                if (symbol >= 'a'){
+                    if (symbol <= 'z'){
+                        System.out.println("you have the small letter");
+                    }else{
+                        System.out.println("The code is greater than a and its not a letter");
+                    }
+                }else {
+                    System.out.println("The code is less than and its not a letter");
+                }
+            }
+        }else{
+            System.out.println("The code is less than A so its not a letter");
+        }
+        int num1, num2;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter two numbers to compare: ");
+        num1 = input.nextInt();
+        num2 = input.nextInt();
+        if (num1>0 & num2>0){
+            System.out.println("not good");
+        }
+        System.out.println("bye bye");
     }
 }
+
+
