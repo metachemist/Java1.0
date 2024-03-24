@@ -23,7 +23,7 @@ public class TestClass {
         System.out.println("Testing Escape Sequence\\"); */
 
 
-        char symbol;
+        /*char symbol;
         symbol = (char) (128.0*Math.random());
         if (symbol >= 'A'){
             if (symbol <= 'Z'){
@@ -50,7 +50,17 @@ public class TestClass {
         if (num1>0 & num2>0){
             System.out.println("not good");
         }
-        System.out.println("bye bye");
+        System.out.println("bye bye");*/
+        long limit = 20;
+        long factorial;
+
+        for (int i = 1; i <= limit; i++){
+            factorial = 1;
+            for (int factor = 2; factor <= i; factor++){
+                factorial *= factor;
+            }
+            System.out.println(STR."\{i}! is \{factorial}");
+        }
     }
 }
 
