@@ -1,4 +1,4 @@
-package BasicsOfJava.w3resources;
+package BasicsOfJava.w3resources.Part01;
 
 public class SwappingVariables {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package BasicsOfJava.w3resources;
+package BasicsOfJava.w3resources.Part01;
 import java.util.*;
 
 public class TakingInput {

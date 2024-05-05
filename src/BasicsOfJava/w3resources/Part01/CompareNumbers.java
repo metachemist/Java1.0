@@ -1,4 +1,4 @@
-package BasicsOfJava.w3resources;
+package BasicsOfJava.w3resources.Part01;
 
 import java.util.Scanner;
 
@@ -11,22 +11,22 @@ public class CompareNumbers {
         secondint = input.nextInt();
 
         if (firstint == secondint){
-            System.out.println(STR."\{firstint} == \{secondint}");
+            //System.out.println(STR."\{firstint} == \{secondint}");
         }
         if (firstint < secondint){
-            System.out.println(STR."\{firstint} < \{secondint}");
+            //System.out.println(STR."\{firstint} < \{secondint}");
         }
         if (firstint > secondint){
-            System.out.println(STR."\{firstint} > \{secondint}");
+            //System.out.println(STR."\{firstint} > \{secondint}");
         }
         if (firstint <= secondint){
-            System.out.println(STR."\{firstint} <= \{secondint}");
+            //System.out.println(STR."\{firstint} <= \{secondint}");
         }
         if (firstint >= secondint){
-            System.out.println(STR."\{firstint} >= \{secondint}");
+            //System.out.println(STR."\{firstint} >= \{secondint}");
         }
         if (firstint != secondint){
-            System.out.println(STR."\{firstint} != \{secondint}");
+            //System.out.println(STR."\{firstint} != \{secondint}");
         }
     }
 

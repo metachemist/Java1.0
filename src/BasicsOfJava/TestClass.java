@@ -59,7 +59,8 @@ public class TestClass {
             for (int factor = 2; factor <= i; factor++){
                 factorial *= factor;
             }
-            System.out.println(STR."\{i}! is \{factorial}");
+            //System.out.println(STR."\{i}! is \{factorial}");
+            System.out.println(factorial);
         }
     }
 }
