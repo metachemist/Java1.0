@@ -10,5 +10,7 @@ public class TakingInput {
         int num02 = input.nextInt();
         int result = num01*num02;
         System.out.println("The product of the numbers are " + result);
+
+        input.close();
     }
 }
