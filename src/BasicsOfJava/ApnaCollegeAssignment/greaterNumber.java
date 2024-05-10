@@ -25,5 +25,7 @@ public class greaterNumber {
         double result = greaterNumberComparison(num1, num2);
         System.out.println("The greater number is: " + result);
 
+        input.close();
+
     }
 }
