@@ -11,7 +11,9 @@ public class Computation {
         System.out.println("Enter the length of side: ");
         side = input.nextLong();
         double area = (6*pow(side,2))/(4*tan(PI/6));
-        System.out.println(STR."The area of hexagon is: \{area}");
+        System.out.println("The area of hexagon is:" + area);
+
+        input.close();
     }
 }
 
