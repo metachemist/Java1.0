@@ -27,7 +27,7 @@ public class BinaryNumber {
         while(i >= 0){
             System.out.print(sum[i--]);
 
-
         }
+        input.close();
     }
 }
