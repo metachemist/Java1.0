@@ -2,9 +2,13 @@ package BasicsOfJava.ApnaCollegeAssignment;
 
 import java.util.Scanner;
 
-public class circumferenceOfCircle {
+public class Circle {
+
+    public static double circumferenceOfCircle(double radius){
+        
+    }
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        int radius = input.nextInt();
+        double radius = input.nextInt();
     }
 }
