@@ -21,9 +21,9 @@ public class Operators {
         System.out.println(num1/num2);
         System.out.println(num1%num2);
         System.out.println((25.5 * 3.5 - 3.5 * 3.5)/(40.5-4.5));
-        System.out.println(STR."The average of \{num1} and \{num2} is \{avg}");
+        System.out.println("The average of"+ num1 + "and "+ num2 + "is"+ avg);
 
-
+        input.close();
 
     }
 }
