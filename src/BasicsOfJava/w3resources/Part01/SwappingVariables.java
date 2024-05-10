@@ -26,7 +26,7 @@ public class SwappingVariables {
                 num2 = temp;
 
                 // Printing the values after swapping using the original method
-                System.out.println(STR."Before swap: num1 = \{num1}, num2 = \{num2}");
+                System.out.println("Before swap:" +num1+ "=" + num1 + ","+ num2+ "=" +num2);
 
                 // New swapping method without using a temporary variable
                 num1 = num1 + num2;
@@ -34,7 +34,7 @@ public class SwappingVariables {
                 num1 = num1 - num2;
 
                 // Printing the values after swapping using the new method
-                System.out.println(STR."After swap: num1 = \{num1}, num2 = \{num2}");
+                System.out.println("After swap:" +num1+ "=" + num1 + ","+ num2+ "=" +num2);
 
 
     }
