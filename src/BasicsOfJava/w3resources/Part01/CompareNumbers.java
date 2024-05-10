@@ -28,6 +28,7 @@ public class CompareNumbers {
         if (firstint != secondint){
             //System.out.println(STR."\{firstint} != \{secondint}");
         }
+        input.close();
     }
 
 }
