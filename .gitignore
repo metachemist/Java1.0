@@ -4,6 +4,7 @@ out/
 !**/src/test/**/out/
 .idea
 Java1.0.iml
+qodana.yaml
 
 ### Eclipse ###
 .apt_generated
@@ -29,6 +30,7 @@ bin/
 Starting_Java_1.0/
 Expense-Tracker-02
 Learning-OOP
+.github/
 
 ### Mac OS ###
 .DS_Store
