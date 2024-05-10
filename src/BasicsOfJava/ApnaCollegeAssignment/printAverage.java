@@ -11,6 +11,6 @@ public class printAverage {
         int num3 = input.nextInt();
         float average = (float) (num1 + num2 + num3) / 3;
         System.out.println("The Average of " + num1 + ", " + num2 + ", " + num3 +" is " + average) ;
-
+        input.close();
     }
 }
