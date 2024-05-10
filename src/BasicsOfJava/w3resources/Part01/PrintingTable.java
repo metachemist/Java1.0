@@ -11,5 +11,6 @@ public class PrintingTable {
             System.out.println(numInputted +"X" + i + "=" +numInputted * i);
             i++;
         }
+        input.close();
     }
 }
