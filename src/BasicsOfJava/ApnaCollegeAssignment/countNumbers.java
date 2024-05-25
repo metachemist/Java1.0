@@ -8,8 +8,6 @@ public class countNumbers {
         System.out.println("How many numbers you want to enter: ");
         int n = input.nextInt();
         int i=0;
-        while(i==n){
-            double 
-        }
+
     }
 }
