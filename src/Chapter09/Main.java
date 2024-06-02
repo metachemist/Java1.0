@@ -3,6 +3,7 @@ package Chapter09;
 public class Main {
     public static void main(String[] args){
 
+        /*Circle Class */
         //Create a circle with radius of 1
         SimpleCircle circle1 = new SimpleCircle();
         System.out.println("The area of the circle of radius " + circle1.radius + " is " + circle1.getArea());
@@ -19,7 +20,7 @@ public class Main {
         circle2.radius = 100;
         System.out.println("The area of the circle of radius " + circle2.radius + " is " + circle2.getArea());
 
-
+        /*Television Class*/
         Television tv1 = new Television();
         tv1.turnOn();
         tv1.setChannel(30);
