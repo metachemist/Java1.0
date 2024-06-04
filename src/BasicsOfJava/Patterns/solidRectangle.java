@@ -1,5 +1,5 @@
 package BasicsOfJava.Patterns;
-import java.util.*;
+//import java.util.*;
 
 public class solidRectangle {
     public static void main(String[] args){
