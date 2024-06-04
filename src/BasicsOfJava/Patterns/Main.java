@@ -9,8 +9,8 @@ public class Main {
         System.out.print("Hello world\n");
         System.out.print("Hello world with java\nwith my college\n");
         // variables
-        String name = "tony stark";
-        int age = 48;
+        // String name = "tony stark";
+        // int age = 48;
         int a = 10;
         int b = 25;
         int sum = a + b;
