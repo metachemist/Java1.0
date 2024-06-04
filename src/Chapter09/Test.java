@@ -12,6 +12,9 @@ public class Test {
         Student st1 = new Student();
         System.out.println("name? " + st1.name);
         System.out.println("age? "+ st1.age);
+        System.out.println("isSciencemajor? " + st1.isScienceMajor);
+        System.out.println("gender? "+ st1.gender);
+        
 
     }
 }

@@ -1,6 +1,7 @@
 package Chapter09;
 
-public class Television {
+
+class Television {
     int channel = 1;
     int volumeLevel = 1;
     boolean on = false;
@@ -43,4 +44,21 @@ public class Television {
             volumeLevel--;
         }
     }
+}
+public class TV{
+public static void main(String[] args){
+       /*Television Class*/
+        Television tv1 = new Television();
+        tv1.turnOn();
+        tv1.setChannel(30);
+        tv1.setVolumeLevel(2);
+
+        Television tv2 = new Television();
+        tv2.turnOn();
+        tv2.setChannel(40);
+        tv2.setVolumeLevel(6);
+
+        System.out.println("tv1's channel is " + tv1.channel + " and volume level is " + tv1.volumeLevel);
+        System.out.println("tv2's channel is " + tv2.channel + " and volume level is " + tv2.volumeLevel);
+}
 }
