@@ -19,7 +19,7 @@ public class age {
         int age = input.nextInt();
         voterAge(age);
 
-
+input.close();
 
     }
 }

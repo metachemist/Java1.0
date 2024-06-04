@@ -1,6 +1,6 @@
 package BasicsOfJava.ApnaCollegeAssignment;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class infiniteLoop {
     public static void main(String[] args){
@@ -9,5 +9,7 @@ public class infiniteLoop {
             System.out.println("hello hafsa, this is infinite loop");
             i++;
         } while (true);
+
+
     }
 }
