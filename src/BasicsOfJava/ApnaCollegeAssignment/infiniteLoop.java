@@ -8,7 +8,7 @@ public class infiniteLoop {
         do{
             System.out.println("hello hafsa, this is infinite loop");
             i++;
-        } while (true);
+        } while (i>0);
 
 
     }
